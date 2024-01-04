@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://root:X3HdZv53rmIcDrdC@neocluster.8vr9rjl.mongodb.net/
+      database: microsvc
