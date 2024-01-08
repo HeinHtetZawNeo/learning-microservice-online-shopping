@@ -3,3 +3,13 @@ spring:
     mongodb:
       uri: mongodb+srv://root:X3HdZv53rmIcDrdC@neocluster.8vr9rjl.mongodb.net/
       database: microsvc
+  application:
+    name: PRODUCT-SERVICE
+server:
+  port: 0
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

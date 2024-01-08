@@ -18,12 +18,12 @@ public class InventorysvcApplication {
 	public CommandLineRunner loadData(InventoryRepository inventoryRepository){
 		return args -> {
 			inventoryRepository.save(Inventory.builder()
-					.skuCode("iphone-13")
+					.skuCode("sku1")
 					.quantity(100)
 					.build());
 
 			inventoryRepository.save(Inventory.builder()
-					.skuCode("iphone_13_red")
+					.skuCode("sku2")
 					.quantity(0)
 					.build());
 		};
